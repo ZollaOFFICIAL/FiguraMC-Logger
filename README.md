@@ -1,9 +1,17 @@
-# Fabric Example Mod
+# FiguraMC-Logger (Fabric 1.21.1)
 
-## Setup
+Minimal skeleton for a client-side Figura  logging mod.
 
-For setup instructions please see the [fabric documentation page](https://docs.fabricmc.net/develop/getting-started/setting-up-a-development-environment) that relates to the IDE that you are using.
+## Status
+- ✅ Fabric 1.21.1 skeleton runs
+- 🚧 Figura hooks are **not added yet**
 
-## License
+## Build & Run
+- JDK 21
+- `./gradlew runClient`
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Next Steps
+When Figura 1.21.1 JAR (or exact method signatures) are provided, we will add:
+- `UserData` load hook
+- `AvatarManager` set hook
+- (optionally) `NetworkStuff` fetch hook
