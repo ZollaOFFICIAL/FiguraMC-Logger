@@ -60,7 +60,7 @@ Open Figura’s **Local** tab and load the mirrored `avatar.nbt`.
 ## Dev notes
 
 - Java 21, Fabric Loom, Yarn mappings for 1.21.1.
-- No redistribution of someone’s model files here—this logs exactly what the client receives (NBT), to reproduce what you see.
+- No redistribution of someone’s model files here, this logs exactly what the client receives (NBT), to reproduce what you see.
 
 ---
 
@@ -70,4 +70,5 @@ Open Figura’s **Local** tab and load the mirrored `avatar.nbt`.
 - [ ] Add simple `/flog` toggle & hotkeys.
 - [ ] structured export (owner UUID folders, server name, world seed hash).
 - [ ] on-disk index JSON and viewer.
+
 
