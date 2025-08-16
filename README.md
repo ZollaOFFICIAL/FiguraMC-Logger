@@ -69,6 +69,6 @@ Open Figura’s **Local** tab and load the mirrored `avatar.nbt`.
 - [ ] Confirm final mixin targets for 1.21.1 (exact class/method descriptors).
 - [ ] Add simple `/flog` toggle & hotkeys.
 - [ ] structured export (owner UUID folders, server name, world seed hash).
-- [ ] Optional: on-disk index JSON and viewer.
+- [ ] on-disk index JSON and viewer.
 
 
