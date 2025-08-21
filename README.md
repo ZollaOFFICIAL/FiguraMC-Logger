@@ -25,7 +25,7 @@ A simple client-side logger that captures **Figura** avatars you render in-game 
 - ✅ Fabric 1.21.1 project compiles and runs with **Fabric Loader** + **Fabric API** + **Figura 0.1.5 (1.21.1)** in `run/mods/`.
 - ✅ NBT capture + zipped output works.
 - ✅ “Mirror to local” writes `avatar.nbt` directly to `.minecraft/figura/local` for one-click testing.
-- ❗ **Open task:** add precise hooks for Figura 1.21.1 class names to ensure we capture at the best points (e.g., `Avatar.load(...)`, `AvatarManager.setAvatar(...)`).
+- ❗ **Open task:** add precise hooks for Figura 1.21.1 class names to ensure we capture at the best points.
 
 ---
 
@@ -70,5 +70,6 @@ Open Figura’s **Local** tab and load the mirrored `avatar.nbt`.
 - [ ] Add simple `/flog` toggle & hotkeys.
 - [ ] structured export (owner UUID folders, server name, world seed hash).
 - [ ] on-disk index JSON and viewer.
+
 
 
